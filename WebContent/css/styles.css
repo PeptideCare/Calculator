@@ -1,0 +1,261 @@
+body{
+    font-family: 'Nanum Gothic';
+    margin:0;
+}
+
+
+
+/*------------------------------메인 화면----------------------------------------*/
+/*메인 화면 버튼*/
+.indexbtn{
+    text-align : center;
+}
+
+/*로그인, 회원가입*/
+#login, #signup{
+    width: 100px;
+    margin : 15px;
+}
+
+
+
+
+/*----------------------------------회원가입 및 로그인----------------------------------------------*/
+/*회원가입창 form박스*/
+.signupform{
+    display : table;
+    width : 200px;
+    padding : 20px;
+    margin-left : auto; margin-right : auto;
+}
+
+/*로그인창 form박스*/
+.loginform{
+    text-align: center;
+    display : table;
+    width : 250px;
+    padding : 20px;
+    margin-left : auto; margin-right : auto;
+}
+
+/*로그인과 회원가입 창에서 id와 pw입력칸, 로그인 버튼*/
+.class_of_num, .pw, .loginbtn{
+    width : 200px;
+    height : 24px;
+    margin-bottom : 10px;
+}
+
+/*회원가입 창의 학부 선택과 회원가입 버튼*/
+.signupbtn, #undergraduate{
+    width : 100px;
+    height : 24px;
+}
+
+/*뒤로가기 버튼*/
+.backbtn{
+    width : 140px;
+    text-align : center;
+    margin-right: auto; margin-left: auto;
+}
+
+#backbtn{
+    margin-top: 10px;
+    text-align: center;
+    width : 130px;
+}
+
+
+/*------------------------과목 추천-------------------------*/
+.inner_grid{
+    background-color:#F2F2F2;
+    display : grid;
+    border : solid 1px;
+    margin-top : 50px;
+    margin-left : 30%;
+    margin-right : 30%;
+    margin-bottom: 100%;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+#grid_division{
+    background-color:#E2E2E2;
+    padding : 20px;
+    border-right : solid 1px;
+}
+#grid_complete{
+    padding : 20px;
+}
+
+#grid_division_title{
+    padding : 20px;
+    background-color: #BCBCBC;
+    border-right : solid 1px;
+}
+#grid_complete_title{
+    padding : 20px;
+    background-color: #DDDDDD;
+}
+
+/*선택 안 된 로드앱 포탈 버튼*/
+#roadmap_btn {
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+/*선택된 로드맵 포탈 버튼*/
+#roadmap_btn_checked{
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+    background-color:#ededed;
+    border-radius:6px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:#777777;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+}
+
+
+/*-------------------------각 화면 요소-----------------------*/
+/*상단의 페이지 제목*/
+#logo_img{
+    margin-left: 19px;
+    margin-top : 8px;
+}
+.subtitle {
+    font-family: 'Nanum Gothic';
+    font-size : 32px;
+    font-weight : bold;
+    text-align : center;
+    border-bottom:1px solid;
+    padding-bottom : 40px;
+}
+
+/*좌측상단 홈 버튼*/
+.Homebtn{
+    border-radius : 10px;
+}
+
+/*포탈버튼*/
+.portalbtn{
+    float : left;
+    display : block;
+    position : relative;
+    padding : 20px;
+    width : 100%;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-right: 1px solid;
+    text-align: center;
+}
+
+
+/*포탈버튼*/
+.unchecked_portal_btn{
+
+    width:100px;
+    border: 1px;
+    background-color:#6FAFFA;
+    padding: 12px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.checked_portal_btn{
+    width:100px;
+    border: 1px;
+    background-color:#418BE0;
+    padding: 12px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px;
+    color: #000000;
+    cursor: pointer;
+}
+
+#logoutbtn{
+    margin-top:100px;
+    width:100px;
+    border: 1px;
+    background-color:#c5c5c5;
+    padding: 12px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: minmax(100px, 10%) minmax(30%,90%);
+}
+
+
+
+
+
+/*---------------------------------관리자페이지--------------------------------*/
+.cource_lead_btn{
+    margin-top : 20px;
+    margin-bottom : 0;
+}
+
+
+/*----과목 삭제 페이지-----*/
+.Subject_delete_form{
+    text-align:center;
+    margin-top : 50px;
+    margin-bottom: 100%;
+}
+
+
+/*----과목 등록 페이지-----*/
+.Subject_enter_form{
+    margin-top : 50px;
+    margin-bottom : 100%; 
+    text-align: center;
+}
+
+#input_subject_info_form{
+    border : 1px solid;
+    width : 200px;
+    margin-right : 60%;
+    margin-left : 40%;
+}
+
+.Subject_enter_select, .Subject_enter_text, .Subject_enter_time{
+    padding : 10px;
+}
+
+#select, #text{
+    width : 150px;
+    text-align: center;
+    margin : 5px;
+}
